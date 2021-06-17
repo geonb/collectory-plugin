@@ -246,7 +246,7 @@ class CollectoryTagLib {
         if (isAuthorisedToEdit(attrs.uid, request.getUserPrincipal()?.attributes?.email)) {
             out << body()
         } else {
-            out << ' You are not authorised to change this record '// + debugString
+            //out << ' You are not authorised to change this record '// + debugString
         }
     }
 
